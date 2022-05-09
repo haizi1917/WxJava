@@ -138,6 +138,7 @@ public interface WxCpService extends WxService {
    */
   WxCpAgentJsapiSignature createAgentJsapiSignature(String url) throws WxErrorException;
 
+
   /**
    * 小程序登录凭证校验
    *
@@ -146,7 +147,6 @@ public interface WxCpService extends WxService {
    * @throws WxErrorException the wx error exception
    */
   WxCpMaJsCode2SessionResult jsCode2Session(String jsCode) throws WxErrorException;
-
   /**
    * <pre>
    * 获取微信服务器的ip段

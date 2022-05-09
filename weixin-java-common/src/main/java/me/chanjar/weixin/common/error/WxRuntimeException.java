@@ -13,7 +13,7 @@ public class WxRuntimeException extends RuntimeException {
     super(e);
   }
 
-  public WxRuntimeException(String msg) {
+  public  (String msg) {
     super(msg);
   }
 
